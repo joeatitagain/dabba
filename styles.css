@@ -404,7 +404,7 @@ footer {
     justify-content: space-around;
     color: #ffffff;
     font-size: small;
-    padding-bottom: 50px;
+    padding: 0 10px 50px 10px;
 }
 
 /* @media (max-width: 1000px) { */
