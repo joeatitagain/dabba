@@ -76,12 +76,15 @@ span, #colour{
     color: #8D6CFA;
 }
 
+#first-text{
+    width: 50%;
+}
 #first-text > h2 {
     color:  #8B82A7;
     font-family: "Work Sans", sans-serif;
     font-size: 23px;
     font-weight: 300;
-    width: 550px; 
+     
 }
 
 #input-stuff {
@@ -119,9 +122,9 @@ input {
 }
 
 #core {
-    padding-left: 70px;
-    padding-right: 20px;
-    padding-top: 150px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #core > h2 {
     text-align: center;
