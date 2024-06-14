@@ -447,6 +447,9 @@ footer {
         padding-top: 0;
     }
 
+    #assets{
+        height: 470px;
+    }
     #second-text {
         font-size: 120%;
         padding: 10px 20px 20px 20px;
@@ -455,7 +458,7 @@ footer {
     
     #blind-mf {
         height: 290px;
-        width: 60%;
+        width: auto;
         margin: auto;
     }
     
