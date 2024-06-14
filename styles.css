@@ -212,6 +212,21 @@ input {
     font-family: "Work Sans", sans-serif;
 }
 
+#investing-inus > h2 {
+    text-align: center; 
+    font-size: 45px; 
+    font-weight: 700; 
+    width: 45%;
+    margin: auto; 
+    line-height: 60px;
+}
+
+#investing-inus span{
+    display: inline-flex; 
+    color: #8D6DF9;
+    text-transform: capitalize;
+}
+
 #three-vantages{
     display: flex;
     justify-content: space-around;
@@ -490,5 +505,12 @@ footer {
 
     .twin-box > img {
         display: none;
+    }
+
+    #investing-inus > h2 {
+        font-size: xx-large;
+    }
+    #investing-inus span {
+        display: block;
     }
 }
