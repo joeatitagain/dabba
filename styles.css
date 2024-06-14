@@ -303,6 +303,11 @@ input {
     width: 50%;
 }
 
+#intelligence-content > p {
+    font-size: 20px; 
+    width: 390px;"
+}
+
 #photo-div > img{
     padding-top: 50px;
 }
@@ -428,7 +433,7 @@ footer {
     padding: 0 10px 50px 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     .about-us {
         display: none;
     }
@@ -512,5 +517,36 @@ footer {
     }
     #investing-inus span {
         display: block;
+    }
+
+    #three-vantages {
+        flex-direction: column;
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    .three-vantages{
+        margin: auto;
+    }
+
+    #photo-div {
+        display: none;
+    }
+
+    #intelligence-content > div {
+        text-align: center;
+        line-height: 35px;
+        margin: auto;
+        padding: 0; 
+        width: 70%;
+    }
+ 
+    #intelligence-content > div > .purple-button {
+        margin: auto;
+        width: 20%;
+    }
+
+    #intelligence-content > div > p {
+        margin: 20px;
     }
 }
