@@ -10,7 +10,7 @@ body {
 }
 
 .top-shelf {
-  padding-left: 70px;
+  padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   display: flex;
@@ -56,10 +56,11 @@ a {
 }
 
 .the-use {
-    padding-left: 70px;
+    padding-left: 20px;
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    height: 500px;
 }
 
 .the-use  h1 {
