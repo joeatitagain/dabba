@@ -467,11 +467,12 @@ footer {
         gap: 10px;
     }
 
+    
     #twin-box1 {
         width: 100%;
-        height: 425px;
         padding: 0;
         margin: 0;
+        height: 150px;
     }
 
     .twin-box >div {
@@ -482,8 +483,12 @@ footer {
     }
     #twin-box2 {
         width: 100%;
-        height: 480px;
         padding: 0;
         margin: 0;
+        height: 150px;
+    }
+
+    .twin-box > img {
+        display: none;
     }
 }
