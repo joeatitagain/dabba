@@ -114,6 +114,9 @@ input {
     border-radius: 50%;
 }
 
+#phone-grad {
+    width: 39%;
+}
 
 #core {
     padding-left: 70px;
@@ -381,7 +384,7 @@ input {
 #the-footer-text {
     align-content: center;
     font-size: xx-large;
-    width: 75%;
+    width: 55%;
 }
 
 #the-footer-img {
