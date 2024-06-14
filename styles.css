@@ -159,6 +159,11 @@ input {
     align-content: center;   
 }
 
+.twin-box {
+    font-size: large; 
+    width: 85%;
+}
+
 #twin-box {
     display: flex;
     font-family: "Work Sans", sans-serif;
@@ -437,7 +442,45 @@ footer {
         justify-content: left;
     }
 
+    #core {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    #second-text {
+        font-size: 120%;
+        padding: 10px 20px 20px 20px;
+        margin-top: 10px;       
+    }
     
+    #blind-mf {
+        height: 290px;
+        width: 60%;
+        margin: auto;
+    }
     
-    
+    #twin-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #twin-box1 {
+        width: 100%;
+        height: 425px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .twin-box >div {
+        padding: 20px;
+        font-size: large;
+        width: 95%;
+
+    }
+    #twin-box2 {
+        width: 100%;
+        height: 480px;
+        padding: 0;
+        margin: 0;
+    }
 }
