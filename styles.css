@@ -751,7 +751,7 @@ footer img {
     footer{
         font-size: smaller;
         justify-content: space-between;
-        padding: 0;
+        padding-bottom: 10px;
     }
 
     footer img {
