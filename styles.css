@@ -601,6 +601,7 @@ footer img {
 
     .three-vantages{
         margin: auto;
+        padding-bottom: 10px;
     }
 
     #photo-div {
@@ -643,7 +644,7 @@ footer img {
         width: 100%;
     }
     .more-images > img {
-        width: auto;
+        width: 100%;
     }
 
     .more-content{
@@ -773,7 +774,7 @@ footer img {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 381px) {
     .the-use  {
         padding-left:0;
         margin-left: 10px;
@@ -793,5 +794,10 @@ footer img {
 
     #book-block > div > img {
         width: 100%;
+    }
+
+    #blind-mf-div > img {
+        width: 300px;
+        height: 93.5%;
     }
 }
