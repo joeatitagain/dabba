@@ -7,6 +7,8 @@
 body {
     font-family: "Work Sans", sans-serif;
     background-color: #F8F8FD;
+    overflow-y: scroll;
+    
 }
 
 .top-shelf {
@@ -237,7 +239,7 @@ input {
     position: relative;
     text-align: center;
     width: 300px;
-    height: 290px;
+    height: auto;
     background-color: rgb(228, 228, 228);
     border-radius: 5%;
     line-height: 20px;
@@ -305,7 +307,7 @@ input {
 
 #intelligence-content > p {
     font-size: 20px; 
-    width: 390px;"
+    width: 390px;
 }
 
 #photo-div > img{
@@ -319,12 +321,16 @@ input {
     padding-top: 120px;
 }
 
-#more h2 {
+#more > h2 {
     color: #16054E;
+    font-size: 300%; 
+    text-align: center
 }
 
-#more p {
+#more > p {
     color: #8B82A7;
+    font-size: 150%;
+    text-align: center;
 }
 
 #building{
@@ -333,10 +339,21 @@ input {
     gap: 80px;
 }
 
-#building-text {
+#building-text, #updated-text {
     align-content: center;
     font-size: large;
     line-height: 35px;
+}
+
+.img-para p {
+    text-align: left;
+    color: #8B82A7;
+}
+
+.img-para  h2 {
+    color: #060125;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 #updated {
@@ -347,10 +364,9 @@ input {
     
 }
 
-#updated-text {
-    align-content: center;
-    font-size: large;
-    line-height: 35px;
+.img-para img {
+    height: 500px;
+
 }
 
 #your-time {
@@ -370,6 +386,16 @@ input {
     z-index: 1;
 }
 
+#your-time-content > h2 {
+    color: #060125; 
+    width: 50%;
+}
+
+#your-time > img {
+    height: 100%;
+    width: 100%;
+}
+
 #twin-bx {
     padding-top: 20px;
     width: 100%;
@@ -384,6 +410,18 @@ input {
     font-size: x-large;
     display: flex;
     justify-content: space-between;
+}
+
+#book-block p {
+    color: #8B82A7;
+    width: 500px;
+}
+
+#book-block h2 {
+    color: #060125;
+    font-weight: bolder; 
+    font-size: 50px;
+
 }
 
 #dabba-city {
@@ -404,6 +442,15 @@ input {
     transform: translate(-50%);
 }
 
+#dabba-city-content > .purple-button {
+    margin: auto;
+}
+
+#dabba-city-content > img {
+    height: 100%;
+    width: 100%;
+
+}
 #the-footer {
     height: 770px;
     background-color: #060125;
@@ -420,8 +467,22 @@ input {
     width: 55%;
 }
 
+#the-footer-text > h2 {
+    width: 540px;
+}
+
+#the-footer-text > p {
+    font-size: 20px; 
+    line-height: 35px; 
+    width: 75%;
+}
+
 #the-footer-img {
     align-content: center;
+}
+
+#the-footer-text > #input-stuff {
+    width: 70%;
 }
 
 footer {
@@ -431,6 +492,10 @@ footer {
     color: #ffffff;
     font-size: small;
     padding: 0 10px 50px 10px;
+}
+
+footer img {
+    height: 30px;
 }
 
 @media (max-width: 1080px) {
@@ -460,11 +525,14 @@ footer {
 
     #input-stuff {
         justify-content: left;
+        width: auto;
+        flex-wrap: nowrap;
+        
     }
 
     #core {
-        margin: 0;
         padding-top: 0;
+        margin-top: 0;
     }
 
     #assets{
@@ -476,10 +544,16 @@ footer {
         margin-top: 10px;       
     }
     
+    #blind-mf-div {
+        height: 50%;
+        align-self: flex-end;
+        width: 100%;
+        text-align: center;
+    }
+
     #blind-mf {
-        height: 290px;
+        height: 100%;
         width: auto;
-        margin: auto;
     }
     
     #twin-box {
@@ -498,8 +572,6 @@ footer {
     .twin-box >div {
         padding: 20px;
         font-size: large;
-        width: 95%;
-
     }
     #twin-box2 {
         width: 100%;
@@ -512,11 +584,13 @@ footer {
         display: none;
     }
 
-    #investing-inus > h2 {
-        font-size: xx-large;
+    #investing-inus {
+        text-align: center;
     }
-    #investing-inus span {
-        display: block;
+
+    #investing-inus > h2 {
+        display: inline;
+        font-size: xx-large;
     }
 
     #three-vantages {
@@ -538,15 +612,162 @@ footer {
         line-height: 35px;
         margin: auto;
         padding: 0; 
-        width: 70%;
+        width: 90%;
     }
  
     #intelligence-content > div > .purple-button {
         margin: auto;
-        width: 20%;
+        width: auto;
     }
 
     #intelligence-content > div > p {
         margin: 20px;
     }
+
+    #more {
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    #more h2 {
+        color: #16054E;
+        font-size: 200%;
+        margin: 10px;
+    }
+
+    #more p {
+        font-size: medium;
+    }
+
+
+    .more-images > img {
+        width: 100%;
+    }
+
+    .more-content {
+        text-align: center;
+    }
+
+    .more-content p {
+        text-align: center;
+    }
+    
+    #updated {
+        flex-direction: column-reverse;
+    }
+
+    #your-time-content img {
+        display: none;
+    }
+
+    #your-time-content {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    #your-time-content > h2 {
+        width: auto;
+    }
+     #your-time {
+        height: 300px;
+    }
+
+    #book-block {
+        padding: 0;
+        margin: auto;
+    } 
+    
+    #book-block > div {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #book-block p {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #book-block .purple-button {
+        margin: auto;
+    }
+
+    #dabba-city {
+        height: 1%;
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+     
+    #dabba-city-content {
+        width: 100%;
+        font-size: small;
+        top: 30%;
+    }
+
+    #dabba-city-content > .purple-button {
+        margin-top: 20px;
+        width: 20%;
+    }
+
+    #dabba-city > img {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    #the-footer {
+        padding-left: 0;
+        height: 350px;
+    }
+
+    #the-footer-text > h2 {
+        width: 100%;
+        font-size: xx-large;
+    }
+
+    #the-footer-text {
+        width: 90%;
+        margin-left: 10px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    #the-footer-text > p {
+        width: 100%;
+        font-size: medium;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: normal;
+    }
+
+    #the-footer-text > #input-stuff {
+        width: auto;
+    }
+
+    footer{
+        font-size: smaller;
+        justify-content: space-between;
+        height: 350px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    footer img {
+        
+        height: 20px;
+    }
+
+    footer #social-media{
+        height: 0px;
+    }
+
+    footer p {
+        font-size: xx-small;
+    }
+
+
 }
