@@ -772,3 +772,22 @@ footer img {
 
 
 }
+
+@media (max-width: 400px) {
+    .the-use  {
+        padding-left:0;
+        margin-left: 10px;
+    } 
+
+    #core {
+        margin-top: 150px;
+    }
+
+    #assets {
+        margin-top: 30px;
+    }
+
+    .more-images > img {
+        width: 100%;
+    }
+}
